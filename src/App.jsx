@@ -1,15 +1,18 @@
 
 import './App.css'
-import { Routers } from 'react-router-dom'
+//import store from '../Redux/Slices/store.js';
+
+import Footer from './components/Footer'
 
 function App() {
 
 
   return (
     <>
-     <Routers>
+     {/*<Routers>*/}
        { /* <Router path="/" element={<Home />}></Router> */}
-     </Routers>
+     {/*</Routers>*/}
+     <Footer />
     </>
   )
 }
