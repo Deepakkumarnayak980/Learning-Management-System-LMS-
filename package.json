@@ -16,6 +16,10 @@
     "chart.js": "^4.4.5",
     "daisyui": "^4.12.13",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+<<<<<<< HEAD
+    "lms": "file:",
+=======
+>>>>>>> 40792bab96a20c4a7c67f079d6aa0fd4c3eee48f
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
