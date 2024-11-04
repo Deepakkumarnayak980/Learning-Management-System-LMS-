@@ -53,7 +53,7 @@ function HomeLayout() {
                 <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">About US</Link>
               </li>
             </ul>
           </label>
