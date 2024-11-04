@@ -1,10 +1,10 @@
 
 import './App.css'
-//import store from '../Redux/Slices/store.js';
+ import { Routes,Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
 
-import Footer from './components/Footer'
 
-import Layout from './Layout/HomeLayout'
+
 
 
 function App() {
@@ -12,12 +12,12 @@ function App() {
 
   return (
     <>
-     {/*<Routers>*/}
-       { /* <Router path="/" element={<Home />}></Router> */}
-     {/*</Routers>*/}
-     <Footer />
+     <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+     </Routes>*
+    
 
-     <Layout />
+
 
     </>
   )
