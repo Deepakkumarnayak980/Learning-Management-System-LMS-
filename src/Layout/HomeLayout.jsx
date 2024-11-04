@@ -44,7 +44,7 @@ function HomeLayout() {
                 </button>
               </li>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Home </Link>
               </li>
               <li>
                 <Link to="/courses">All Courses</Link>
