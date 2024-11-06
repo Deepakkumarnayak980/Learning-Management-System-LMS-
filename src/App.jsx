@@ -2,6 +2,7 @@
 import './App.css'
  import { Routes,Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import AboutUs from './pages/AboutUs'
 
 
 
@@ -14,7 +15,8 @@ function App() {
     <>
      <Routes>
         <Route path="/" element={<HomePage />}></Route>
-     </Routes>*
+        <Route path="/about" element={<AboutUs />}></Route>
+     </Routes>
     
 
 
